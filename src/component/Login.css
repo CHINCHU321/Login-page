@@ -17,8 +17,9 @@ body{
   transform: translate(-50%, -50%);
   text-align: center;
   border-radius: 10px;
+  font-family: inherit;
 }
-.logo{
+svg{
   width: 30px;
   margin-bottom: 20px;
 }
@@ -26,25 +27,28 @@ body{
   margin-bottom: 20px;
 }
 .logo-box button img{
-  width: 18px;
+  width: 20px;
+  padding-right: 4px;
 }
 .logo-box button{
   width: 100%;
   background: transparent;
-  border: solid gray 1px;
+  border: solid rgb(207, 217, 222) 1px;
   border-radius: 20px;
   margin: 20px 0px;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 10px 0;
-  font-weight: 500;
+  font-weight: 700;
+  font-family: inherit;
   cursor: pointer;
+  font-size: 15px;
 }
 .logo-box hr{
   border: 0;
   height: 1px;
-  background-color: gray;
+  background-color: rgb(207, 217, 222);
   margin: 5px;
 }
 .logo-box span{
@@ -58,10 +62,11 @@ body{
  .logo-box input{
   width: 100%;
   background: transparent;
-  border: solid grey 1px;
+  border: solid rgb(207, 217, 222) 1px;
   padding: 15px 10px;
   border-radius: 4px;
   margin-top: 10px;
+  font-size: 17.5px;
  }
  ::placeholder{
   font-weight: 500;
@@ -78,8 +83,10 @@ body{
   color: #555;
   margin: 40px 0 50px ;
  }
- .login-box p  {
+ .logo-box p a{
   text-decoration: none;
   color: #2a96ef;
-  margin-left: 100px;
-}
+  }
+  .logo-box p a:hover{
+    text-decoration: underline;
+  }
