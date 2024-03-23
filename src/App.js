@@ -1,4 +1,6 @@
 import Login from './component/Login';
+import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/react"
 {/*import Signup from './component/Signup';
 
 import { BrowserRouter as Router, Routes,
@@ -15,6 +17,9 @@ function App() {
       </Routes>
       </Router>
   */}<Login/>
+      <Analytics />
+      <SpeedInsights />
+
     </div>
   );
 }
